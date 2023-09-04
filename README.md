@@ -45,15 +45,15 @@ y_pred = regressor.predict(x_test)
 print(y_pred)
 print(y_test)
 #Graph plot for training data
-plt.scatter(x_train,y_train,color='black')
-plt.plot(x_train,regressor.predict(x_train),color='blue')
+plt.scatter(x_train,y_train,color='orange')
+plt.plot(x_train,regressor.predict(x_train),color='red')
 plt.title("Hours vs Scores(Training set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
 #Graph plot for test data
-plt.scatter(x_test,y_test,color='black')
-plt.plot(x_train,regressor.predict(x_train),color='red')
+plt.scatter(x_test,y_test,color='purple')
+plt.plot(x_train,regressor.predict(x_train),color='yellow')
 plt.title("Hours vs Scores(Testing set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
@@ -88,10 +88,12 @@ print("RMSE= ",rmse)
 ![image](https://github.com/Safeeq-Fazil/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118680361/7bbe9578-3bc9-4420-8f78-1c84e39fe21f)
 
 ### Training Set
-![image](https://github.com/Safeeq-Fazil/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118680361/67eabbde-bc64-4a9e-aae6-58ec3781ab37)
+![image](https://github.com/Safeeq-Fazil/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118680361/8719ffc5-5bc7-4a8e-9002-42f8be22da89)
+
 
 ### Testing Set:
-![image](https://github.com/Safeeq-Fazil/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118680361/59319202-ba3d-4549-afca-c99fea495711)
+![image](https://github.com/Safeeq-Fazil/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118680361/2afee5df-91f6-4421-b922-c7fa554885fd)
+
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
